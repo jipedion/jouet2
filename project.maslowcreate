@@ -2,6 +2,26 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 748.447265625,
+            "y": 182.671875,
+            "uniqueID": 339171,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 974,
+                    "y": 159,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "jouet2",
             "x": 0,
             "y": 0,
@@ -12,21 +32,46 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 306,
-                    "y": 156,
+                    "x": 322.212890625,
+                    "y": 169.986328125,
                     "uniqueID": 971753,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 383.103515625,
+                    "y": 251.173828125,
+                    "uniqueID": 583912,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 504,
-                    "y": 162,
+                    "x": 501.07910156250006,
+                    "y": 153.4951171875,
                     "uniqueID": 923659,
                     "ioValues": [
                         {
@@ -38,6 +83,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 748.447265625,
+                    "y": 182.671875,
+                    "uniqueID": 339171,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
